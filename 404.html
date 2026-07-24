@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FantaCanis Manager</title>
+  <script>
+    // GitHub Pages SPA redirect trick
+    // Converts 404 paths to hash routes and redirects to index.html
+    const path = window.location.pathname;
+    const search = window.location.search;
+    const hash = window.location.hash;
+    window.location.replace(
+      window.location.origin + '/' +
+      (window.location.pathname.split('/')[1] || '') +
+      '/#' + (path + search + hash).replace(/^\/[^/]*/, '')
+    );
+  </script>
+</head>
+<body></body>
+</html>
