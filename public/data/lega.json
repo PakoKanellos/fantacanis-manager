@@ -1,0 +1,230 @@
+{
+  "lega": {
+    "nome": "FantaCanis Premier League",
+    "stagione_corrente": "2024-25",
+    "budget_iniziale": 250,
+    "crediti_bonus_compensazione": 20
+  },
+  "squadre": [
+    {
+      "id": "sq01",
+      "nome": "FC Canis United",
+      "manager": "Marco R.",
+      "budget": 143,
+      "posizione_classifica": 1,
+      "premi_stagione": 3,
+      "colore": "#1a56db"
+    },
+    {
+      "id": "sq02",
+      "nome": "Canis Athletic",
+      "manager": "Luca B.",
+      "budget": 87,
+      "posizione_classifica": 2,
+      "premi_stagione": 1,
+      "colore": "#e02424"
+    },
+    {
+      "id": "sq03",
+      "nome": "Real Canis CF",
+      "manager": "Simone T.",
+      "budget": 112,
+      "posizione_classifica": 3,
+      "premi_stagione": 2,
+      "colore": "#057a55"
+    },
+    {
+      "id": "sq04",
+      "nome": "Canis City FC",
+      "manager": "Andrea M.",
+      "budget": 65,
+      "posizione_classifica": 4,
+      "premi_stagione": 0,
+      "colore": "#9061f9"
+    },
+    {
+      "id": "sq05",
+      "nome": "Canis Rovers",
+      "manager": "Davide P.",
+      "budget": 198,
+      "posizione_classifica": 5,
+      "premi_stagione": 1,
+      "colore": "#e3a008"
+    },
+    {
+      "id": "sq06",
+      "nome": "Sporting Canis",
+      "manager": "Filippo G.",
+      "budget": 54,
+      "posizione_classifica": 6,
+      "premi_stagione": 0,
+      "colore": "#f05252"
+    }
+  ],
+  "giocatori": [
+    {
+      "id": "p001",
+      "nome": "M. Carnesecchi",
+      "ruolo": "P",
+      "squadra_id": "sq01",
+      "eta": 24,
+      "prezzo_acquisto": 22,
+      "anno_contratto": 2,
+      "durata_contratto": 3,
+      "stagione_acquisto": "2023-24"
+    },
+    {
+      "id": "p002",
+      "nome": "A. Dimarco",
+      "ruolo": "D",
+      "squadra_id": "sq01",
+      "eta": 26,
+      "prezzo_acquisto": 18,
+      "anno_contratto": 1,
+      "durata_contratto": 3,
+      "stagione_acquisto": "2024-25"
+    },
+    {
+      "id": "p003",
+      "nome": "B. Barella",
+      "ruolo": "C",
+      "squadra_id": "sq01",
+      "eta": 27,
+      "prezzo_acquisto": 35,
+      "anno_contratto": 2,
+      "durata_contratto": 3,
+      "stagione_acquisto": "2023-24"
+    },
+    {
+      "id": "p004",
+      "nome": "V. Osimhen",
+      "ruolo": "A",
+      "squadra_id": "sq01",
+      "eta": 25,
+      "prezzo_acquisto": 52,
+      "anno_contratto": 1,
+      "durata_contratto": 3,
+      "stagione_acquisto": "2024-25"
+    },
+    {
+      "id": "p005",
+      "nome": "M. Maignan",
+      "ruolo": "P",
+      "squadra_id": "sq02",
+      "eta": 28,
+      "prezzo_acquisto": 28,
+      "anno_contratto": 3,
+      "durata_contratto": 3,
+      "stagione_acquisto": "2022-23"
+    },
+    {
+      "id": "p006",
+      "nome": "R. Leao",
+      "ruolo": "A",
+      "squadra_id": "sq02",
+      "eta": 24,
+      "prezzo_acquisto": 44,
+      "anno_contratto": 2,
+      "durata_contratto": 3,
+      "stagione_acquisto": "2023-24"
+    },
+    {
+      "id": "p007",
+      "nome": "F. Vlahovic",
+      "ruolo": "A",
+      "squadra_id": "sq03",
+      "eta": 23,
+      "prezzo_acquisto": 38,
+      "anno_contratto": 1,
+      "durata_contratto": 4,
+      "stagione_acquisto": "2024-25"
+    },
+    {
+      "id": "p008",
+      "nome": "L. Martinez",
+      "ruolo": "A",
+      "squadra_id": "sq04",
+      "eta": 26,
+      "prezzo_acquisto": 45,
+      "anno_contratto": 2,
+      "durata_contratto": 3,
+      "stagione_acquisto": "2023-24"
+    },
+    {
+      "id": "p009",
+      "nome": "K. Kvaratskhelia",
+      "ruolo": "A",
+      "squadra_id": "sq05",
+      "eta": 22,
+      "prezzo_acquisto": 41,
+      "anno_contratto": 1,
+      "durata_contratto": 4,
+      "stagione_acquisto": "2024-25"
+    },
+    {
+      "id": "p010",
+      "nome": "G. Scalvini",
+      "ruolo": "D",
+      "squadra_id": "sq06",
+      "eta": 20,
+      "prezzo_acquisto": 12,
+      "anno_contratto": 1,
+      "durata_contratto": 4,
+      "stagione_acquisto": "2024-25"
+    }
+  ],
+  "premi_stagionali": [
+    {
+      "id": "pr01",
+      "tipo": "Miglior punteggio mese",
+      "bonus_crediti": 5,
+      "assegnazioni": [
+        { "squadra_id": "sq01", "mese": "Settembre" },
+        { "squadra_id": "sq03", "mese": "Ottobre" }
+      ]
+    },
+    {
+      "id": "pr02",
+      "tipo": "Miglior attacco",
+      "bonus_crediti": 3,
+      "assegnazioni": [
+        { "squadra_id": "sq01", "mese": "Mensile" }
+      ]
+    },
+    {
+      "id": "pr03",
+      "tipo": "Miglior difesa",
+      "bonus_crediti": 3,
+      "assegnazioni": [
+        { "squadra_id": "sq02", "mese": "Mensile" }
+      ]
+    },
+    {
+      "id": "pr04",
+      "tipo": "Serie positiva",
+      "bonus_crediti": 5,
+      "assegnazioni": []
+    }
+  ],
+  "rookie_draft": {
+    "stagione": "2024-25",
+    "stato": "completato",
+    "scelte": [
+      { "ordine": 1, "squadra_id": "sq06", "giocatore": "T. Ndoye", "eta": 23 },
+      { "ordine": 2, "squadra_id": "sq05", "giocatore": "M. Camarda", "eta": 17 },
+      { "ordine": 3, "squadra_id": "sq04", "giocatore": "C. Fagioli", "eta": 22 }
+    ]
+  },
+  "storico_stagioni": [
+    {
+      "stagione": "2022-23",
+      "vincitore_id": "sq03",
+      "classifica": ["sq03", "sq01", "sq05", "sq02", "sq04", "sq06"]
+    },
+    {
+      "stagione": "2023-24",
+      "vincitore_id": "sq01",
+      "classifica": ["sq01", "sq02", "sq03", "sq05", "sq06", "sq04"]
+    }
+  ]
+}
